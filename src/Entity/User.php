@@ -54,7 +54,7 @@ class User implements UserInterface
     {
         $roles = $this->roles;
 
-        if($this->getUsername() == 'bildstei1')
+        if($this->getUsername() != 'test')
             $roles[] = 'ROLE_ADMIN';
 
         // guarantee every user at least has ROLE_USER
