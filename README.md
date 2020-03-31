@@ -8,7 +8,7 @@ collate utf8_general_ci;
 
 ## Copier le fichier .env.dev.dist vers .env.dev
 et modifier les données.
- (connexion base de données et url de l'application)
+ (connexion base de données et url du cas et de l'application)
 
 ## Lignes de commande
 à la racine du projet, exécuter les commandes suivantes :

@@ -14,7 +14,6 @@ class IndexController extends AbstractController
     {
         return $this->render('index/index.html.twig', [
             'controller_name' => 'IndexController',
-            'routes' => $this->getRoutes(),
         ]);
     }
 
@@ -24,9 +23,7 @@ class IndexController extends AbstractController
     public function admin()
     {
         $this->generateUrl('admin');
-        return $this->render('index/admin.html.twig', [
-            'routes' => $this->getRoutes(),
-        ]);
+        return $this->render('index/admin.html.twig', []);
     }
 
     private function getRoutes(){
